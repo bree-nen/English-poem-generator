@@ -5,6 +5,9 @@ body {
   font-size: 30px; */
   margin-bottom: 30px;
 }
+.header{
+    color:rgb(246, 82, 130) ;
+}
 a {
   color: rgb(246, 82, 130);
   text-decoration: underline;
@@ -51,7 +54,7 @@ form {
 .submit-button {
   font-size: 15px;
   font-weight: 300;
-  font-family: monospace;
+  font-family: fantasy;
   color: rgba(50, 50, 52, 0.878);
   margin-left: 10px;
   border: none;
@@ -80,5 +83,6 @@ form {
 footer {
   text-align: center;
   font-size: 12px;
+  font-family: 'Courier New', Courier, monospace;
   margin-top: 30px;
 }
