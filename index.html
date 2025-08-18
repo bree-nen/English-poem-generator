@@ -16,7 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Roboto:wght@100;300;400;500;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Sen:wght@400;700;800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Tangerine:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
@@ -27,7 +27,7 @@
         <h1>AI English Poem Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic of the poem..."
@@ -39,11 +39,7 @@
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="poem">
-          Poem
-          <br />
-          poem
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         This AI project was coded by
