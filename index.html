@@ -4,45 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Roboto:wght@100;300;400;500;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Sen:wght@400;700;800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Petit+Formal+Script&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&family=Roboto:wght@100;300;400;500;700&family=Saira:ital,wght@0,100..900;1,100..900&family=Sen:wght@400;700;800&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Tangerine:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="src/style.css" />
     <title>AI Poem Generator</title>
   </head>
-  <body>
-    <header>
-      <h1>AI English Poem Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autocomplete="off"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
 
-      <div>
-        Poem
-        <br />
-        poem
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="www.linkedin.com/in/britney-nenwalwi-02p200209" target="_blank">
-        👩🏽‍💻 Bree Nen</a
-      >
-      and is open-sourced on
-      <a
-        href="https://github.com/bree-nen/english-poem-generator"
-        target="_blank"
-        >Github</a
-      >
-      and is hosted on
-      <a href="https://poemnest.netlify.app/" target="_blank">Netlify</a>.
-    </footer>
-    <script src="src/index.js"></script>
-  </body>
+  <div class="container">
+    <body>
+      <header>
+        <h1>AI English Poem Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem..."
+            autocomplete="off"
+            autofocus
+            required
+            class="search-bar"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+
+        <div class="poem">
+          Poem
+          <br />
+          poem
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a
+          href="https://www.linkedin.com/in/britney-nenwalwi-02p200209/"
+          target="_blank"
+        >
+          👩🏽‍💻 Bree Nen</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/bree-nen/english-poem-generator"
+          target="_blank"
+          >Github</a
+        >
+        and is hosted on
+        <a href="https://poemnest.netlify.app/" target="_blank">Netlify</a>.
+      </footer>
+      <script src="src/index.js"></script>
+    </body>
+  </div>
 </html>
