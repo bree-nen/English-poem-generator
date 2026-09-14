@@ -1,4 +1,4 @@
-🪶<h1>🌷PoemNest</h1>
+<h1>🌷PoemNest</h1>
 
 <p>PoemNest is a creative web application designed to give words a place to breathe.
 The app allows users to explore, create, and enjoy poetry through a simple and welcoming interface.
